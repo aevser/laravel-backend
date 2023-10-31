@@ -1,0 +1,204 @@
+.simple__top {
+  margin-bottom: 127px;
+}
+@media screen and (max-width: 1441px) {
+  .simple__top {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .simple__top {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__top {
+    margin-bottom: 30px;
+  }
+}
+.simple__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+@media screen and (max-width: 850px) {
+  .simple__items {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 35px;
+  }
+}
+.simple__item:nth-child(1) .simple-item {
+  padding-left: 57px;
+}
+@media screen and (max-width: 850px) {
+  .simple__item:nth-child(1) .simple-item {
+    padding-left: 75px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(1) .simple-item {
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width: 1441px) {
+  .simple__item:nth-child(1) .simple-item__icon {
+    max-width: 60px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(1) .simple-item__icon {
+    max-width: 45px;
+    left: 10px;
+  }
+}
+.simple__item:nth-child(1) .simple-item__text {
+  max-width: 237px;
+}
+@media screen and (max-width: 850px) {
+  .simple__item:nth-child(1) .simple-item__text {
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(1) .simple-item__text {
+    max-width: 100%;
+  }
+}
+.simple__item:nth-child(3) .simple-item {
+  padding-left: 113px;
+}
+@media screen and (max-width: 1441px) {
+  .simple__item:nth-child(3) .simple-item {
+    padding-left: 75px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(3) .simple-item {
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width: 1441px) {
+  .simple__item:nth-child(3) .simple-item__icon {
+    max-width: 101px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(3) .simple-item__icon {
+    max-width: 81px;
+  }
+}
+.simple__item:nth-child(3) .simple-item__text {
+  max-width: 272px;
+}
+@media screen and (max-width: 850px) {
+  .simple__item:nth-child(3) .simple-item__text {
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(3) .simple-item__text {
+    max-width: 100%;
+  }
+}
+.simple__item:nth-child(5) .simple-item {
+  padding-left: 105px;
+}
+@media screen and (max-width: 1441px) {
+  .simple__item:nth-child(5) .simple-item {
+    padding-left: 75px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(5) .simple-item {
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width: 1441px) {
+  .simple__item:nth-child(5) .simple-item__icon {
+    max-width: 101px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(5) .simple-item__icon {
+    max-width: 81px;
+  }
+}
+.simple__item:nth-child(5) .simple-item__text {
+  max-width: 240px;
+}
+@media screen and (max-width: 850px) {
+  .simple__item:nth-child(5) .simple-item__text {
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .simple__item:nth-child(5) .simple-item__text {
+    max-width: 100%;
+  }
+}
+.simple__item--line {
+  max-width: 15%;
+  width: 100%;
+  display: flex;
+}
+@media screen and (max-width: 1441px) {
+  .simple__item--line {
+    max-width: 10%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .simple__item--line {
+    display: none;
+  }
+}
+.simple__item--line img, .simple__item--line svg {
+  width: 100%;
+  height: auto;
+}
+.simple-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.simple-item__icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  display: flex;
+}
+.simple-item__icon img, .simple-item__icon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 1441px) {
+  .simple-item__number {
+    font-size: 22px;
+  }
+}
+.simple-item__title {
+  color: #2F2F2F;
+  font-family: SegoeUI, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+@media screen and (max-width: 1441px) {
+  .simple-item__title {
+    font-size: 22px;
+  }
+}
+.simple-item__text {
+  color: #2F2F2F;
+  font-size: 20px;
+  line-height: 120%;
+}
+@media screen and (max-width: 1441px) {
+  .simple-item__text {
+    font-size: 18px;
+  }
+}

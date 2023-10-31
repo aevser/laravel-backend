@@ -1,0 +1,31 @@
+.partners__images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+  max-width: 1115px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 769px) {
+  .partners__images {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+.partners__image {
+  display: flex;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.partners__image:hover img, .partners__image:hover svg {
+  filter: grayscale(0);
+  filter: unset;
+}
+.partners__image img, .partners__image svg {
+  transition: 0.2s;
+  filter: grayscale(100%);
+  filter: gray;
+}
